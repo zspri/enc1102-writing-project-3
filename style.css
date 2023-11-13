@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: "ss03";
+    background-color: #eee;
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 80%;
+    max-width: 680px;
+    margin: auto;
+}
+
+section p {
+    line-height: 2;
+    color: rgba(0, 0, 0, .8);
+    text-indent: 40px;
+}
+
+section p a {
+    color: #3b82f6;
+}
+
+section img {
+    max-width: 680px;
+}
+
+section ol {
+    padding-left: 20px;
+}
+
+section li {
+    line-height: 2;
+    color: rgba(0, 0, 0, .8);
+}
+
+h1 {
+    font: 600 2rem 'Inter', sans-serif;
+    line-height: 1.2;
+}
+
+hr {
+    margin: 2rem 0;
+    border-color: rgba(0, 0, 0, .1);
+}
+
+figure {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+figure figcaption {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, .7);
+    font-style: italic;
+    margin-top: .5rem;
+}
+
+blockquote {
+    margin: 2rem auto;
+    padding-left: 38px;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+}
+
+blockquote span, blockquote cite {
+    display: block;
+    margin: 1rem 0;
+}
+
+blockquote span.comment-title {
+    font-weight: 600;
+}
+
+blockquote span.comment-body {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+blockquote cite {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .8);
+}
+
+#works-cited p {
+    padding-left: 40px;
+    text-indent: -40px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+ nav span, nav a {
+    display: block;
+ }
+
+ nav span {
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .5);
+ }
+
+ nav a {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    transition: color .2s;
+ }
+
+ nav a:hover {
+    color: rgba(0, 0, 0, .9);
+ }
+
+ @media (max-width: calc(240px + 680px + 2rem)) {
+    nav {
+        display: none;
+    }
+ }
