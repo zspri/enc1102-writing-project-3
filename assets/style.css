@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    font-feature-settings: "ss03";
+    font-feature-settings: "ss03" 1;
     background-color: #eee;
     scroll-behavior: smooth;
 }
