@@ -150,7 +150,7 @@ nav {
     margin: 1rem 0;
  }
 
- @media (max-width: calc(240px + 680px + 2rem)) {
+ @media (max-width: calc(220px * 2 + 680px)) {
     nav {
         display: none;
     }
